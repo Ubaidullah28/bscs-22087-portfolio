@@ -75,32 +75,86 @@ body{
   padding: 0 10%;
 }
 
+.home-content{
+  max-width: 500px;
+}
+
 .home-content h1{
   font-size: 56px;
   font-weight: 700;
+  color: beige;
 }
 
 
 .home-content h3{
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 700;
+
 
 }
 
 .home-content p{
   font-size: 16px;
-
-}
-
-.btn{
-  width: 180px;
-  height: 48px;
-  display: inline-flex;
-  border-radius: 40px;
-  text-decoration: none;
-  letter-spacing: 1.2px;
-  color: black;
-  font-size: 19px;
-  background: linear-gradient(45deg, white, rgb(14, 63, 118));
+  margin-top: 10px;
   
+
 }
+
+/* From Uiverse.io by xueyuantan */ 
+button {
+  width: 9em;
+  height: 3em;
+  border-radius: 30em;
+  font-size: 15px;
+  font-family: inherit;
+  border: none;
+  margin-top: 20px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 6px 6px 12px #c5c5c5,
+              -6px -6px 12px #ffffff;
+ }
+ 
+ button::before {
+  content: '';
+  width: 0;
+  height: 3em;
+  border-radius: 30em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to right, #a5379e 0%, #18dbc1 100%);
+  transition: .5s ease;
+  display: block;
+  z-index: -1;
+ }
+ 
+ button:hover::before {
+  width: 9em;
+ }
+
+
+ .home-sci a {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(45deg, #a5379e 0%, #18dbc1 100%);
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  margin-right: 8px;
+  margin-top: 3px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  transition: transform 0.3s ease, background 0.3s ease; /* Add transition for smooth animation */
+}
+
+/* Hover effect */
+.home-sci a:hover {
+  transform: scale(1.2); /* Enlarge icon on hover */
+  background: linear-gradient(45deg, #18dbc1 0%, #a5379e 100%); /* Reverse gradient on hover */
+}
+
+ 
