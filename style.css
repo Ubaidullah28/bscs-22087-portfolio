@@ -73,7 +73,7 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 10%;
+  padding: 70px 10% 0;
 }
 
 .home-content{
@@ -90,7 +90,7 @@ body{
 .home-content h3{
   font-size: 28px;
   font-weight: 700;
-
+padding-top: 10px;
 
 }
 
@@ -159,15 +159,29 @@ button {
 }
 
  .dpimg{
-  width: 400px;
-  height: 400px;
+  width: 310px;
+  height: 310px;
   /* background: linear-gradient(45deg, #18dbc1 0%, #a5379e 100%); */
-  background: yellowgreen;
+  
 }
 
  .dpimg .glowing-circle{
   width: 100%;
   height: 100%;
-  background: red;;
+  background:linear-gradient(45deg,black,rgb(38, 19, 148));
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .dpimg .glowing-circle::after{
+  content: '';
+  position: absolute;
+  width:280px;
+  height: 280px;
+  /* background-color: darkslategray; */
+  border-radius: 50%;
+  background-color: darkslategray;
+  
  }
