@@ -295,12 +295,12 @@ button {
   padding: 60px;
   background:linear-gradient(120deg,rgba(107, 144, 155, 0.509),rgba(2, 28, 46, 0.966));
   color: white;
-  text-align: center; /* Center align the content */
+  text-align: center; 
   margin: 50px auto;
-  border-radius: 15px; /* Rounded corners */
-  max-width: 750px; /* Limit the width to make it more focused */
-  max-height: 550px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  border-radius: 15px; 
+  max-width: 750px;
+  max-height: 620px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 
 }
@@ -523,4 +523,43 @@ button {
 
 .gmail a:hover {
   color: #128C7E; /* Darker WhatsApp green */
+}
+
+
+
+.awards-certifications {
+  padding: 60px;
+  background: linear-gradient(120deg, rgba(107, 144, 155, 0.509), rgba(2, 28, 46, 0.966));
+  color: white;
+  text-align: center;
+  margin: 50px auto;
+  border-radius: 15px;
+  max-width: 750px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.awards-certifications h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: beige;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.award-item {
+  margin-bottom: 30px;
+}
+
+.award-item h3 {
+  font-size: 28px;
+  font-weight: bold;
+  color: beige;
+  margin-bottom: 10px;
+}
+
+.award-item p {
+  font-size: 18px;
+  color: lightgray;
 }
