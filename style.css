@@ -65,10 +65,14 @@ body{
   animation-delay: 1s;
 }
 
+
+
 .navbar a.active, .navbar a:hover{
+  
   background: linear-gradient(45deg,rgb(253, 18, 198),rgba(28, 243, 236, 0.847));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  
 
 }
 
@@ -196,7 +200,8 @@ button {
   text-align: center; /* Center align the content */
   margin: 50px auto;
   border-radius: 15px; /* Rounded corners */
-  max-width: 800px; /* Limit the width to make it more focused */
+  max-width: 750px; /* Limit the width to make it more focused */
+  max-height: 530px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition effects */
 }
@@ -216,7 +221,7 @@ button {
 }
 
 .about p {
-  font-size: 20px;
+  font-size: 19px;
   line-height: 1.8;
   margin-bottom: 0;
   padding: 0 20px; /* Add padding to create some space around the text */
@@ -233,9 +238,12 @@ button {
 
 .about::after {
   content: "";
-  display: block;
+  display:block;
   width: 60px;
   height: 3px;
   background-color: white;
   margin: 20px auto 0 auto; /* Line divider after the paragraph */
 }
+
+
+
