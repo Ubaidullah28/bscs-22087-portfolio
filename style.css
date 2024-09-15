@@ -292,14 +292,14 @@ button {
 
 
 .skills {
-  padding: 60px;
+  padding: 4%;
   background:linear-gradient(120deg,rgba(107, 144, 155, 0.509),rgba(2, 28, 46, 0.966));
   color: white;
   text-align: center; 
   margin: 50px auto;
   border-radius: 3%; 
-  max-width: 750px;
-  max-height: 620px;
+  max-width: 62%;
+  max-height: 70%;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 
