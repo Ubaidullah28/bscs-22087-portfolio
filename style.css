@@ -27,7 +27,7 @@
 
 
 body{
-    background:darkslategray;
+  background:linear-gradient(30deg,rgba(29, 36, 38, 0.509),rgba(2, 28, 46, 0.966));
     color: aliceblue;
 }
 
@@ -75,6 +75,7 @@ body{
   
 
 }
+
 
 .home{
   width:100%;
@@ -193,9 +194,12 @@ button {
   scroll-behavior: smooth;
 }
 
+
+
+
 .about {
   padding: 60px;
-  background-color: darkslategray;
+  background:linear-gradient(120deg,rgba(107, 144, 155, 0.509),rgba(2, 28, 46, 0.966));
   color: white;
   text-align: center; /* Center align the content */
   margin: 50px auto;
@@ -227,7 +231,7 @@ button {
   padding: 0 20px; /* Add padding to create some space around the text */
 }
 
-.about::before {
+.about::before, .skills::before, .projects::before, .education::before  {
   content: "";
   display: block;
   width: 60px;
@@ -236,14 +240,287 @@ button {
   margin: 0 auto 20px auto; /* Line divider before the heading */
 }
 
-.about::after {
+.about::after, .skills::after, .projects::after, .education::after {
   content: "";
   display:block;
   width: 60px;
   height: 3px;
   background-color: white;
-  margin: 20px auto 0 auto; /* Line divider after the paragraph */
+  margin: 20px auto 0 auto;
 }
 
 
 
+.education {
+  padding: 60px;
+  background: linear-gradient(120deg, rgba(107, 144, 155, 0.509), rgba(2, 28, 46, 0.966));
+  color: white;
+  text-align: center; 
+  margin: 50px auto;
+  border-radius: 15px;
+  max-width: 750px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.education:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+}
+
+.education h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: beige;
+  text-transform: uppercase; /* Uppercase title */
+  letter-spacing: 1.5px;
+}
+
+.education-item h3 {
+  font-size: 28px;
+  font-weight: bold;
+  color:#eee;
+  margin-bottom: 10px;
+}
+
+.education-item p {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: lightgray;
+}
+
+
+.skills {
+  padding: 60px;
+  background:linear-gradient(120deg,rgba(107, 144, 155, 0.509),rgba(2, 28, 46, 0.966));
+  color: white;
+  text-align: center; /* Center align the content */
+  margin: 50px auto;
+  border-radius: 15px; /* Rounded corners */
+  max-width: 750px; /* Limit the width to make it more focused */
+  max-height: 550px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.skills h2 {
+  font-size: 38px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: beige;
+}
+
+.skill-category {
+  margin-bottom: 20px;
+}
+
+.skill-category h3 {
+  font-size: 24px;
+  color:#ffffff;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.skill-category p {
+  font-size: 18px;
+  color:honeydew;
+  margin: 0 auto;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+
+
+.projects {
+  padding: 60px;
+  background:linear-gradient(120deg,rgba(107, 144, 155, 0.509),rgba(2, 28, 46, 0.966));
+  margin-top: 50px;
+  border-radius: 15px;
+  margin:50px auto;
+
+  max-width: 900px; /* Limit the width to make it more focused */
+  max-height: 1900px;
+
+}
+
+.projects h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: beige;
+  text-align: center;
+}
+
+.project {
+  margin-bottom: 30px;
+}
+
+.project h3 {
+  font-size: 24px;
+  color:#ffffff;
+  margin-bottom: 10px;
+}
+
+.project p {
+  font-size: 18px;
+  color:#ffffff;
+}
+
+.project ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.project ul li {
+  font-size: 16px;
+  line-height: 1.6;
+  color: honeydew;
+}
+
+
+
+.contact {
+  padding: 60px;
+  background:linear-gradient(120deg,rgba(107, 144, 155, 0.509),rgba(2, 28, 46, 0.966));
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.contact h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color:beige;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.contact p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color:honeydew
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background:linear-gradient(120deg,rgba(107, 144, 155, 0.509),rgba(2, 28, 46, 0.966));
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #ccc;
+}
+
+.form-group input, 
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  color: #333;
+}
+
+.form-group input::placeholder, 
+.form-group textarea::placeholder {
+  color: #999;
+}
+
+.form-group input:focus, 
+.form-group textarea:focus {
+  border: 2px solid #fff;
+  background-color: #eee;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6.5px 20px;
+  background-color: #f6f9f7;
+  color: #fff;
+  ;
+  font-size: 15px;
+  text-transform: uppercase;
+  border-radius: 40px;
+  cursor: pointer;
+
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #f3f3f3;
+}
+
+
+
+.social-links {
+  /* margin: -30px; */
+  margin-top: -53px;
+  margin-left:500px;
+
+}
+
+.social-links a {
+  font-size: 50px;
+  color: #25D366; /* WhatsApp green */
+  margin-right: 20px;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #128C7E; /* Darker WhatsApp green */
+}
+
+
+.social-links {
+  /* margin: -30px; */
+  margin-top: -53px;
+  margin-left:513px;
+
+}
+
+.social-links a {
+  font-size: 50px;
+  color: #25D366; /* WhatsApp green */
+  margin-right: 20px;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #0eaeedf6; /* Darker WhatsApp green */
+}
+
+
+
+
+.gmail {
+  /* margin: -30px; */
+  margin-top: -64px;
+  margin-right:515px;
+
+}
+
+.gmail a {
+  font-size: 50px;
+  color: #25D366; /* WhatsApp green */
+  margin-right: 20px;
+  transition: color 0.3s ease;
+}
+
+.gmail a:hover {
+  color: #128C7E; /* Darker WhatsApp green */
+}
