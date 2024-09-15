@@ -487,21 +487,20 @@ button {
 
 
 .social-links {
-  /* margin: -30px; */
-  margin-top: -53px;
-  margin-left:513px;
+  margin-top: -10.5%;
+  margin-left:90.2%;
 
 }
 
 .social-links a {
   font-size: 50px;
-  color: #25D366; /* WhatsApp green */
-  margin-right: 20px;
+  color: #25D366;
+  margin-right: 2%;
   transition: color 0.3s ease;
 }
 
 .social-links a:hover {
-  color: #0eaeedf6; /* Darker WhatsApp green */
+  color: #0eaeedf6;
 }
 
 
