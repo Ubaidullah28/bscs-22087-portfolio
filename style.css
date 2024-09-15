@@ -565,12 +565,14 @@ button {
 }
 
 
+
 .footer {
   text-align: center;
   padding: 20px;
-  background-color: rgba(2, 28, 46, 0.966); /* Footer background */
+  background-color: rgba(2, 28, 46, 0.966);
   color: white;
   font-size: 14px;
+
   position: relative;
   bottom: 0;
   width: 100%;
