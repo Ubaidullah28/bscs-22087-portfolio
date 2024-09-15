@@ -265,6 +265,11 @@
 
         </form>
     </section>
+
+    <footer class="footer"></footer>
+        <p>&copy; 2024 M Ubaidullah Ishtiaque. All Rights Reserved.</p>
+        <p>Designed by M Ubaidullah Ishtiaque</p>
+    </footer>
     
 
 </body>
@@ -272,16 +277,10 @@
 </html>
 
 <script>
-    // Get all the navbar links
     const navbarLinks = document.querySelectorAll('.navbar a');
-  
-    // Loop through each link and add a click event listener
     navbarLinks.forEach(link => {
       link.addEventListener('click', function() {
-        // Remove the active class from all links
         navbarLinks.forEach(nav => nav.classList.remove('active'));
-  
-        // Add the active class to the clicked link
         this.classList.add('active');
       });
     });

@@ -563,3 +563,20 @@ button {
   font-size: 18px;
   color: lightgray;
 }
+
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(2, 28, 46, 0.966); /* Footer background */
+  color: white;
+  font-size: 14px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  margin: 5px 0;
+  color: lightgray;
+}
