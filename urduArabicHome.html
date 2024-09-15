@@ -20,7 +20,6 @@
 
         .home-content {
             padding: 3%;
-          
             max-width: 70%;
             margin: 10%;
         }
@@ -48,6 +47,24 @@
         .home-content button:nth-child(2) {
             margin-left: 0;
         }
+        
+        /* Arabic Content Styling */
+        .home-content-arabic {
+            margin-top: 50px;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
     </style>
 </head>
 <body>
@@ -57,12 +74,10 @@
         </a>
         <nav class="navbar">
             <a href="#home" class="active">صفحہ اول</a>
-           
         </nav>
-        
     </header>
 
-
+    <!-- Urdu Content -->
     <div class="home-content">
         <h1>
             ہیلو، میں محمد عبید اللہ اشتیاق ہوں
@@ -76,8 +91,33 @@
             HTML، CSS، اور فرنٹ اینڈ ڈویلپمنٹ میں مہارت کے ساتھ ساتھ .NET فریم ورک سمیت بیک اینڈ ٹیکنالوجیز کا تھوڑا سا تجربہ، 
             C++، C#، C، اور Python میں ماہر، اور متحرک صارف کے انٹرفیس بنانے کے لئے React کی عملی معلومات۔
         </p>
-        
-        
     </div>
+
+    <!-- Arabic Content -->
+    <div class="home-content home-content-arabic">
+        <h1>
+            مرحباً، أنا محمد عبيد الله اشتياق
+        </h1>
+
+        <h3>
+            مطور ويب
+        </h3>
+
+        <p>
+            لدي خبرة في تطوير الواجهة الأمامية باستخدام HTML و CSS، وبعض الخبرة في تقنيات الباكند مثل إطار عمل .NET. أنا أيضاً ماهر في C++ و C# و C و Python، ولدي معرفة عملية بـ React لإنشاء واجهات مستخدم ديناميكية.
+        </p>
+    </div>
+
+    
+    <footer class="footer">
+        <!-- Urdu -->
+        <p>&copy; 2024 محمد عبید اللہ اشتیاق۔ تمام حقوق محفوظ ہیں۔</p>
+        <p>ڈیزائن کردہ: محمد عبید اللہ اشتیاق</p>
+
+        <!-- Arabic -->
+        <p>&copy; 2024 محمد عبيد الله اشتياق. جميع الحقوق محفوظة.</p>
+        <p>تصميم: محمد عبيد الله اشتياق</p>
+    </footer>
+
 </body>
 </html>

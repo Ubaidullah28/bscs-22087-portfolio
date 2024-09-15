@@ -31,54 +31,50 @@ body{
     color: aliceblue;
 }
 
-.header{
-    position: fixed;
-    top:0;
-    left:0;
-    width: 100%;
-    padding: 20px 10%;
-    background-color:darkseagreen;
-    background: linear-gradient(45deg,black,rgb(38, 19, 148));
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 5%;
+  background-color: darkseagreen;
+  background: linear-gradient(45deg, black, rgb(38, 19, 148));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
 }
 
-.logo{
-    font-size: 24px;
-    color:floralwhite;
-    text-decoration:underline;
-    font-weight: 600;
-    pointer-events:fill;
-    opacity: 0;
-    animation: slidetop 1s ease forwards;
+.logo {
+  font-size: 24px;
+  color: floralwhite;
+  text-decoration: underline;
+  font-weight: 600;
+  pointer-events: fill;
+  opacity: 0;
+  animation: slidetop 1s ease forwards;
 }
-.navbar a{
+
+.navbar a {
   font-size: 18px;
-  color:white;
-  text-decoration:underline;
+  color: white;
+  text-decoration: underline;
   font-weight: 500;
   margin-left: 35px;
   opacity: 0;
-  animation: slidetop .5s ease forwards;
+  animation: slidetop 0.5s ease forwards;
   animation-delay: 1s;
 }
 
-
-
-.navbar a.active, .navbar a:hover{
-  
-  background: linear-gradient(45deg,rgb(253, 18, 198),rgba(28, 243, 236, 0.847));
+.navbar a.active,
+.navbar a:hover {
+  background: linear-gradient(45deg, rgb(253, 18, 198), rgba(28, 243, 236, 0.847));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  
-
 }
 
-
-.home{
-  width:100%;
+.home {
+  width: 100%;
   height: 100vh;
   display: flex;
   justify-content: space-between;
@@ -86,32 +82,28 @@ body{
   padding: 5% 10% 0;
 }
 
-.home-content{
+.home-content {
   max-width: 50%;
 }
 
-.home-content h1{
+.home-content h1 {
   font-size: 56px;
   font-weight: 700;
   color: beige;
 }
 
-
-.home-content h3{
+.home-content h3 {
   font-size: 28px;
   font-weight: 700;
-padding-top: 1%;
-
+  padding-top: 1%;
 }
 
-.home-content p{
+.home-content p {
   font-size: 16px;
-  margin-top: 10px;
-  
-
+  margin-top: 1%;
 }
 
-/* From Uiverse.io by xueyuantan */ 
+/* From Uiverse.io by xueyuantan */
 button {
   width: 9em;
   height: 3em;
@@ -123,11 +115,10 @@ button {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  box-shadow: 6px 6px 12px #c5c5c5,
-              -6px -6px 12px #ffffff;
- }
- 
- button::before {
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+button::before {
   content: '';
   width: 0;
   height: 3em;
@@ -136,17 +127,16 @@ button {
   top: 0;
   left: 0;
   background-image: linear-gradient(to right, #a5379e 0%, #18dbc1 100%);
-  transition: .5s ease;
+  transition: 0.5s ease;
   display: block;
   z-index: -1;
- }
- 
- button:hover::before {
+}
+
+button:hover::before {
   width: 9em;
- }
+}
 
-
- .home-sci a {
+.home-sci a {
   display: flex;
   width: 40px;
   height: 40px;
@@ -159,13 +149,59 @@ button {
   font-size: 20px;
   color: white;
   text-decoration: none;
-  transition: transform 0.3s ease, background 0.3s ease; /* Add transition for smooth animation */
+  transition: transform 0.3s ease, background 0.3s ease;
 }
 
-/* Hover effect */
 .home-sci a:hover {
-  transform: scale(1.2); /* Enlarge icon on hover */
-  background: linear-gradient(45deg, #18dbc1 0%, #a5379e 100%); /* Reverse gradient on hover */
+  transform: scale(1.2);
+  background: linear-gradient(45deg, #18dbc1 0%, #a5379e 100%);
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+  .header {
+      padding: 10px 5%;
+  }
+
+  .navbar a {
+      font-size: 14px;
+      margin-left: 20px;
+  }
+
+  .home {
+      flex-direction: column;
+      padding: 20px 5%;
+  }
+
+  .home-content {
+      max-width: 100%;
+      text-align: center;
+  }
+
+  .home-content h1 {
+      font-size: 36px;
+  }
+
+  .home-content h3 {
+      font-size: 24px;
+  }
+
+  .home-content p {
+      font-size: 14px;
+  }
+
+  button {
+      width: 100%;
+      margin: 10px 0;
+  }
+
+  .home-sci {
+      margin-top: 20px;
+  }
+
+  .home-sci a {
+      margin: 0 10px;
+  }
 }
 
  
@@ -196,23 +232,22 @@ button {
 
 
 
-
 .about {
   padding: 60px;
-  background:linear-gradient(120deg,rgba(107, 144, 155, 0.509),rgba(2, 28, 46, 0.966));
+  background: linear-gradient(120deg, rgba(107, 144, 155, 0.509), rgba(2, 28, 46, 0.966));
   color: white;
-  text-align: center; /* Center align the content */
+  text-align: center;
   margin: 50px auto;
-  border-radius: 3%; /* Rounded corners */
-  max-width: 750px; /* Limit the width to make it more focused */
+  border-radius: 3%;
+  max-width: 750px;
   max-height: 530px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition effects */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .about:hover {
-  transform: translateY(-5px); /* Slight lift effect on hover */
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Darken the shadow on hover */
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
 }
 
 .about h2 {
@@ -220,34 +255,56 @@ button {
   margin-bottom: 20px;
   font-weight: bold;
   color: beige;
-  text-transform: uppercase; /* Add uppercase style for a bold title */
-  letter-spacing: 1.5px; /* Slightly increase letter spacing */
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
 }
 
 .about p {
   font-size: 19px;
   line-height: 1.8;
   margin-bottom: 0;
-  padding: 0 20px; /* Add padding to create some space around the text */
+  padding: 0 20px;
 }
 
-.about::before, .skills::before, .projects::before, .education::before  {
+.about::before, .skills::before, .projects::before, .education::before {
   content: "";
   display: block;
   width: 60px;
   height: 3px;
   background-color: white;
-  margin: 0 auto 20px auto; /* Line divider before the heading */
+  margin: 0 auto 20px auto;
 }
 
 .about::after, .skills::after, .projects::after, .education::after {
   content: "";
-  display:block;
+  display: block;
   width: 60px;
   height: 3px;
   background-color: white;
   margin: 20px auto 0 auto;
 }
+
+
+@media (max-width: 768px) {
+  .about {
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 90%; 
+    max-height: auto; }
+
+  .about h2 {
+    font-size: 28px;
+  }
+
+  .about p {
+    font-size: 16px; 
+    padding: 0 15px;   }
+
+  .about::before, .about::after {
+    width: 40px; 
+  }
+}
+
 
 
 
@@ -560,4 +617,52 @@ button {
 
 .footer p {
   color: lightgray;
+}
+
+
+.fb-post-container {
+  padding: 20px;
+  margin: 50px auto;
+  background: linear-gradient(120deg, rgba(107, 144, 155, 0.509), rgba(2, 28, 46, 0.966));
+  border-radius: 3%;
+  max-width: 750px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.fb-post-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.fb-post {
+  max-width: 100%;
+}
+
+.fb-post blockquote {
+  font-size: 18px;
+  color: white;
+}
+
+.fb-post a {
+  color: #18dbc1;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.fb-post a:hover {
+  color: #a5379e;
+}
+
+
+@media (max-width: 768px) {
+  .fb-post-container {
+      padding: 15px;
+      margin: 30px auto;
+      max-width: 90%;
+  }
+  
+  .fb-post blockquote {
+      font-size: 16px;
+  }
 }
