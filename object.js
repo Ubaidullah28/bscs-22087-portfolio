@@ -29,4 +29,8 @@ const portfolioData = {
             endDate: "June 2022"
         }
     ],
+
+    projects: [
+
+    ]
 };
