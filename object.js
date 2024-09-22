@@ -53,6 +53,12 @@ const portfolioData = {
             date: "Dec 2023 – Jan 2024",
             description: ["Console-based search engine developed using C++ and Treaps data structure."]
         },
+        {
+            title: "Text Editor",
+            technologies: "C++",
+            date: "Sept 2023 – Nov 2023",
+            description: ["Console-based text editor developed using linked lists in C++."]
+        },
 
     ]
 };
