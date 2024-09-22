@@ -31,6 +31,15 @@ const portfolioData = {
     ],
 
     projects: [
-
+        {
+            title: "College Management System",
+            technologies: "C#, ASP.NET, MySQL, HTML, CSS, Bootstrap",
+            date: "Apr 2024 – June 2024",
+            description: [
+                "Developed a full-stack web application with .NET framework, ASP, and C# for the backend.",
+                "Frontend developed using HTML, CSS, Bootstrap with .NET.",
+                "MySQL database used for record storage, accessible by admins and teachers."
+            ]
+        },
     ]
 };
