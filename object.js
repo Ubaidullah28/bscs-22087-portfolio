@@ -65,6 +65,12 @@ const portfolioData = {
             date: "Aug 2023 – Sept 2023",
             description: ["Console-based Excel-like application developed in C++ using linked lists."]
         },
+        {
+            title: "Temperature Converter",
+            technologies: "C#, ASP.NET",
+            date: "July 2023",
+            description: ["Full-stack web-based temperature converter developed in C#, HTML, CSS with .NET framework."]
+        },
 
     ]
 };
