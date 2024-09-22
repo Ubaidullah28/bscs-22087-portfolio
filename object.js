@@ -22,5 +22,11 @@ const portfolioData = {
             startDate: "Aug. 2022",
             endDate: "Present"
         },
+        {
+            institution: "Punjab Group of College Lahore",
+            degree: "FSC Pre Engineering",
+            startDate: "Oct. 2020",
+            endDate: "June 2022"
+        }
     ],
 };
