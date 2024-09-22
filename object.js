@@ -41,5 +41,11 @@ const portfolioData = {
                 "MySQL database used for record storage, accessible by admins and teachers."
             ]
         },
+        {
+            title: "Paint Brush",
+            technologies: "Python, Tkinter",
+            date: "May 2023 – June 2023",
+            description: ["Developed a paint brush application using Python and Tkinter library.", "Similar to Microsoft Paint but with custom features."]
+        },
     ]
 };
