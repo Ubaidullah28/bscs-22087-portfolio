@@ -47,5 +47,12 @@ const portfolioData = {
             date: "May 2023 – June 2023",
             description: ["Developed a paint brush application using Python and Tkinter library.", "Similar to Microsoft Paint but with custom features."]
         },
+        {
+            title: "Search Engine",
+            technologies: "C++",
+            date: "Dec 2023 – Jan 2024",
+            description: ["Console-based search engine developed using C++ and Treaps data structure."]
+        },
+
     ]
 };
