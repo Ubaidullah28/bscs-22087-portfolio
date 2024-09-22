@@ -16,6 +16,11 @@ const portfolioData = {
     },
 
     education: [
-
+        {
+            institution: "Information Technology University Lahore(ITU)",
+            degree: "Bachelor in Computer Science",
+            startDate: "Aug. 2022",
+            endDate: "Present"
+        },
     ],
 };
