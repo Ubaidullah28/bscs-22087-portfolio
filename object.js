@@ -113,5 +113,11 @@ document.addEventListener("DOMContentLoaded", function() {
     document.querySelector('.home-content h1').innerText = `Hi, I'm ${portfolioData.name}`;
     document.querySelector('.home-content h3').innerText = portfolioData.title;
     document.querySelector('.home-content p').innerText = portfolioData.description;
-    
+
+
+    // social links
+    document.querySelector('.home-sci a[href*="facebook"]').href = portfolioData.socialLinks.facebook;
+    document.querySelector('.home-sci a[href*="linkedin"]').href = portfolioData.socialLinks.linkedin;
+    document.querySelector('.home-sci a[href*="github"]').href = portfolioData.socialLinks.github;
+
 });
