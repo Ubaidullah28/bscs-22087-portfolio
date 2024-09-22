@@ -143,4 +143,15 @@ document.addEventListener("DOMContentLoaded", function() {
         </div>
     `;
 
+
+    // edu sec
+    const educationSection = document.querySelector('.education');
+    educationSection.innerHTML += portfolioData.education.map(edu => `
+        <div class="education-item">
+            <h3>${edu.institution}</h3>
+            <p>${edu.degree}</p>
+            <p>${edu.startDate} – ${edu.endDate}</p>
+        </div>
+    `).join('');
+
 });
