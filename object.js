@@ -104,3 +104,10 @@ const portfolioData = {
 
     ]
 };
+
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    
+});
