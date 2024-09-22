@@ -71,6 +71,13 @@ const portfolioData = {
             date: "July 2023",
             description: ["Full-stack web-based temperature converter developed in C#, HTML, CSS with .NET framework."]
         },
+        {
+            title: "Ludo",
+            technologies: "C++",
+            date: "Apr 2023 – May 2023",
+            description: ["Console-based Ludo game developed in C++ using OOP concepts."]
+        },
+        
 
     ]
 };
