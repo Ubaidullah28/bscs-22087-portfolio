@@ -120,4 +120,27 @@ document.addEventListener("DOMContentLoaded", function() {
     document.querySelector('.home-sci a[href*="linkedin"]').href = portfolioData.socialLinks.linkedin;
     document.querySelector('.home-sci a[href*="github"]').href = portfolioData.socialLinks.github;
 
+
+    // skills sec
+    const skillsSection = document.getElementById('skills');
+    skillsSection.innerHTML = `
+        <h2>Skills</h2>
+        <div class="skill-category">
+            <h3>Languages:</h3>
+            <p>${portfolioData.skills.languages.join(", ")}</p>
+        </div>
+        <div class="skill-category">
+            <h3>Frameworks:</h3>
+            <p>${portfolioData.skills.frameworks.join(", ")}</p>
+        </div>
+        <div class="skill-category">
+            <h3>Developer Tools:</h3>
+            <p>${portfolioData.skills.developerTools.join(", ")}</p>
+        </div>
+        <div class="skill-category">
+            <h3>Libraries:</h3>
+            <p>${portfolioData.skills.libraries.join(", ")}</p>
+        </div>
+    `;
+
 });
