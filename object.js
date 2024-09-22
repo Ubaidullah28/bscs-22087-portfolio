@@ -83,6 +83,12 @@ const portfolioData = {
             date: "Mar 2023 – Apr 2023",
             description: ["Console-based chess game developed in C++ using OOP concepts."]
         },
+        {
+            title: "Calculator",
+            technologies: "C#, .NET",
+            date: "Feb 2023",
+            description: ["Application-based calculator developed in C# and .NET."]
+        },
 
     ]
 };
