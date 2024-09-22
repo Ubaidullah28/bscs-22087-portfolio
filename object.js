@@ -89,6 +89,12 @@ const portfolioData = {
             date: "Feb 2023",
             description: ["Application-based calculator developed in C# and .NET."]
         },
+        {
+            title: "Shogi",
+            technologies: "C++, .NET",
+            date: "Dec 2022 – Jan 2023",
+            description: ["Console-based Shogi game developed in C++ with basic OOP concepts."]
+        },
 
     ]
 };
