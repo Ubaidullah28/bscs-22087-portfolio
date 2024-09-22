@@ -77,7 +77,12 @@ const portfolioData = {
             date: "Apr 2023 – May 2023",
             description: ["Console-based Ludo game developed in C++ using OOP concepts."]
         },
-        
+        {
+            title: "Chess",
+            technologies: "C++",
+            date: "Mar 2023 – Apr 2023",
+            description: ["Console-based chess game developed in C++ using OOP concepts."]
+        },
 
     ]
 };
