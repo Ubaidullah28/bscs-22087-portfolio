@@ -7,4 +7,11 @@ const portfolioData = {
         linkedin: "https://www.linkedin.com/in/muhammad-ubaidullah-7723a1263/",
         github: "https://github.com/Ubaidullah28"
     },
+
+    skills: {
+        languages: ["C/C++", "Python", "C#", "SQL", "JavaScript", "ASP", "HTML/CSS"],
+        frameworks: ["DOT NET"],
+        developerTools: ["Git", "VS Code", "Visual Studio"],
+        libraries: ["Pandas", "NumPy", "Matplotlib", "Tkinter", "SFML"]
+    },
 };
