@@ -14,4 +14,8 @@ const portfolioData = {
         developerTools: ["Git", "VS Code", "Visual Studio"],
         libraries: ["Pandas", "NumPy", "Matplotlib", "Tkinter", "SFML"]
     },
+
+    education: [
+
+    ],
 };
