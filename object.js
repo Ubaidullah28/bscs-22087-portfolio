@@ -59,6 +59,12 @@ const portfolioData = {
             date: "Sept 2023 – Nov 2023",
             description: ["Console-based text editor developed using linked lists in C++."]
         },
+        {
+            title: "Excel",
+            technologies: "C++",
+            date: "Aug 2023 – Sept 2023",
+            description: ["Console-based Excel-like application developed in C++ using linked lists."]
+        },
 
     ]
 };
