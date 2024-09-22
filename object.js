@@ -154,4 +154,17 @@ document.addEventListener("DOMContentLoaded", function() {
         </div>
     `).join('');
 
+
+    // proj sec 
+    const projectsSection = document.querySelector('.projects');
+    projectsSection.innerHTML += portfolioData.projects.map(project => `
+        <div class="project">
+            <h3>${project.title}</h3>
+            <p>${project.technologies} | ${project.date}</p>
+            <ul>
+                ${project.description.map(desc => `<li>${desc}</li>`).join('')}
+            </ul>
+        </div>
+    `).join('');
+
 });
