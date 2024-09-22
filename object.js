@@ -95,6 +95,12 @@ const portfolioData = {
             date: "Dec 2022 – Jan 2023",
             description: ["Console-based Shogi game developed in C++ with basic OOP concepts."]
         },
+        {
+            title: "Gomoku",
+            technologies: "C++, Python",
+            date: "Nov 2022 – Dec 2022",
+            description: ["Console-based Gomoku game developed in C++ and Python with human vs human and human vs AI versions."]
+        }
 
     ]
 };
