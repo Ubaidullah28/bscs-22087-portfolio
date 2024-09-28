@@ -87,7 +87,7 @@ body{
 }
 
 .home-content h1 {
-  font-size: 56px;
+  font-size: 50px;
   font-weight: 700;
   color: beige;
 }
@@ -157,52 +157,7 @@ button:hover::before {
   background: linear-gradient(45deg, #18dbc1 0%, #a5379e 100%);
 }
 
-/* Media Query for Mobile Devices */
-@media (max-width: 768px) {
-  .header {
-      padding: 10px 5%;
-  }
 
-  .navbar a {
-      font-size: 14px;
-      margin-left: 20px;
-  }
-
-  .home {
-      flex-direction: column;
-      padding: 20px 5%;
-  }
-
-  .home-content {
-      max-width: 100%;
-      text-align: center;
-  }
-
-  .home-content h1 {
-      font-size: 36px;
-  }
-
-  .home-content h3 {
-      font-size: 24px;
-  }
-
-  .home-content p {
-      font-size: 14px;
-  }
-
-  button {
-      width: 100%;
-      margin: 10px 0;
-  }
-
-  .home-sci {
-      margin-top: 20px;
-  }
-
-  .home-sci a {
-      margin: 0 10px;
-  }
-}
 
  
 
@@ -284,26 +239,6 @@ button:hover::before {
   margin: 20px auto 0 auto;
 }
 
-
-@media (max-width: 768px) {
-  .about {
-    padding: 30px;
-    margin: 30px auto;
-    max-width: 90%; 
-    max-height: auto; }
-
-  .about h2 {
-    font-size: 28px;
-  }
-
-  .about p {
-    font-size: 16px; 
-    padding: 0 15px;   }
-
-  .about::before, .about::after {
-    width: 40px; 
-  }
-}
 
 
 
@@ -655,14 +590,19 @@ button:hover::before {
 }
 
 
-@media (max-width: 768px) {
-  .fb-post-container {
-      padding: 15px;
-      margin: 30px auto;
-      max-width: 90%;
-  }
+
+
+@media screen and (max-width:600px) {
+  /* .home-content h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: beige;
+  } */
+
+    .dp img{
+      max-width: 200px;;
+      border-radius: 50%;
+      margin-left: 100px ;
+     }
   
-  .fb-post blockquote {
-      font-size: 16px;
-  }
 }

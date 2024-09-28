@@ -108,18 +108,76 @@ const portfolioData = {
 
 
 
+// document.addEventListener("DOMContentLoaded", function() {
+//     // home sec
+//     document.querySelector('.home-content h1').innerText = `Hi, I'm ${portfolioData.name}`;
+//     document.querySelector('.home-content h3').innerText = portfolioData.title;
+//     document.querySelector('.home-content p').innerText = portfolioData.description;
+
+
+//     // social links
+//     document.querySelector('.home-sci a[href*="facebook"]').href = portfolioData.socialLinks.facebook;
+//     document.querySelector('.home-sci a[href*="linkedin"]').href = portfolioData.socialLinks.linkedin;
+//     document.querySelector('.home-sci a[href*="github"]').href = portfolioData.socialLinks.github;
+
+
+//     // skills sec
+//     const skillsSection = document.getElementById('skills');
+//     skillsSection.innerHTML = `
+//         <h2>Skills</h2>
+//         <div class="skill-category">
+//             <h3>Languages:</h3>
+//             <p>${portfolioData.skills.languages.join(", ")}</p>
+//         </div>
+//         <div class="skill-category">
+//             <h3>Frameworks:</h3>
+//             <p>${portfolioData.skills.frameworks.join(", ")}</p>
+//         </div>
+//         <div class="skill-category">
+//             <h3>Developer Tools:</h3>
+//             <p>${portfolioData.skills.developerTools.join(", ")}</p>
+//         </div>
+//         <div class="skill-category">
+//             <h3>Libraries:</h3>
+//             <p>${portfolioData.skills.libraries.join(", ")}</p>
+//         </div>
+//     `;
+
+
+//     // edu sec
+//     const educationSection = document.querySelector('.education');
+//     educationSection.innerHTML += portfolioData.education.map(edu => `
+//         <div class="education-item">
+//             <h3>${edu.institution}</h3>
+//             <p>${edu.degree}</p>
+//             <p>${edu.startDate} – ${edu.endDate}</p>
+//         </div>
+//     `).join('');
+
+
+//     // proj sec 
+//     const projectsSection = document.querySelector('.projects');
+//     projectsSection.innerHTML += portfolioData.projects.map(project => `
+//         <div class="project">
+//             <h3>${project.title}</h3>
+//             <p>${project.technologies} | ${project.date}</p>
+//             <ul>
+//                 ${project.description.map(desc => `<li>${desc}</li>`).join('')}
+//             </ul>
+//         </div>
+//     `).join('');
+
+// });
 document.addEventListener("DOMContentLoaded", function() {
     // home sec
     document.querySelector('.home-content h1').innerText = `Hi, I'm ${portfolioData.name}`;
     document.querySelector('.home-content h3').innerText = portfolioData.title;
     document.querySelector('.home-content p').innerText = portfolioData.description;
 
-
     // social links
     document.querySelector('.home-sci a[href*="facebook"]').href = portfolioData.socialLinks.facebook;
     document.querySelector('.home-sci a[href*="linkedin"]').href = portfolioData.socialLinks.linkedin;
     document.querySelector('.home-sci a[href*="github"]').href = portfolioData.socialLinks.github;
-
 
     // skills sec
     const skillsSection = document.getElementById('skills');
@@ -143,7 +201,6 @@ document.addEventListener("DOMContentLoaded", function() {
         </div>
     `;
 
-
     // edu sec
     const educationSection = document.querySelector('.education');
     educationSection.innerHTML += portfolioData.education.map(edu => `
@@ -153,7 +210,6 @@ document.addEventListener("DOMContentLoaded", function() {
             <p>${edu.startDate} – ${edu.endDate}</p>
         </div>
     `).join('');
-
 
     // proj sec 
     const projectsSection = document.querySelector('.projects');
@@ -166,5 +222,4 @@ document.addEventListener("DOMContentLoaded", function() {
             </ul>
         </div>
     `).join('');
-
 });
