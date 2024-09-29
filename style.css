@@ -593,16 +593,105 @@ button:hover::before {
 
 
 @media screen and (max-width:600px) {
-  /* .home-content h1 {
+  .home-content h1 {
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 800;
+    margin-left: 40px;
     color: beige;
-  } */
+  }
+  .home-content h3 {
+    font-size: 20px;
+    margin-left: 40px;
+  }
+  .home-content p{
+    margin-left: 40px;
+  }
 
     .dp img{
-      max-width: 200px;;
+      max-width: 180px;;
       border-radius: 50%;
-      margin-left: 100px ;
+      margin-left: 65px ;
+      margin-right: 40px;
+      margin-top: -800px;
+      margin-bottom: 50px;
      }
+    
+     button {
+      width: 6em;
+      height: 3em;
+      border-radius: 30em;
+      font-size: 15px;
+      font-family: inherit;
+      border: none;
+      margin-top: 20px;
+
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+      box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+    }
+
+    button.hire{
+      margin-left:48px ;
+    }
+
+    button.cv{
+      margin-right:-100px ;
+      /* margin-top:-800px; */
+    }
+    button.lang{
+      margin-left: 100px;
+      width: 140px;
+      
+      
+      /* margin-top:-800px; */
+    }
+    .home {
+      width: 600px;
+      height: 80vh;
+      
+      /* justify-content: space-between; */
+      /* align-items: center; */
+      /* padding: 5% 10% 0; */
+      padding: 5% 10% 0;
+
+    }
+    .home-content {
+      margin-top: 110px;
+  }
+
+  .about {
+
+    padding: 35px;         /* Reduce padding for mobile */
+    /* margin: 50px 20px;     Add smaller margins on the sides */
+    
+    margin-left: 89px;
+    margin-right:-68px ;
+    max-width: 95%;        /* Adjust max-width to be relative to the screen */
+    max-height: 1200%;
+}
+
+.education{
+  padding: 35px;  
+  margin-left: 89px;
+  margin-right:-68px ;  
+}
+
+  .education h3{
+    font-size: 20px;
+    word-spacing: 2px;
+  }
+
+  .education h2{
+    margin-top: 10%;
+    margin-bottom: 10px;
+  }
+
+  .skills{
+    padding: 35px;  
+  margin-left: 89px;
+  margin-right:-68px ;  
+  max-width: 500px;
+  }
   
 }
