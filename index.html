@@ -9,19 +9,19 @@
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"zrel="stylesheet">
 </head>
 
 <body>
 
     <script src="object.js"></script>
 
-    <header class="header">
+    <header class="custom-header">
         <a href="#" class="logo">
             M Ubaidullah Ishtiaque.
         </a>
-        <nav class="navbar">
+        <nav class="navbar" id="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
             <a href="#education">Education</a>
@@ -29,63 +29,72 @@
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
         </nav>
-        
+        <div class="menu-icon" id="menu-icon">
+            <i class="bx bx-menu"></i>
+        </div>
     </header>
+    
 
     <section class="home" id="home">
         <div class="home-sci">
-            <a href="https://m.facebook.com/ubaidullah322/" class="href" target="_blank"><i class='bx bxl-facebook'></i></a>
-            <a href="https://www.linkedin.com/in/muhammad-ubaidullah-7723a1263/" class="href" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://m.facebook.com/ubaidullah322/" class="href" target="_blank"><i
+                    class='bx bxl-facebook'></i></a>
+            <a href="https://www.linkedin.com/in/muhammad-ubaidullah-7723a1263/" class="href" target="_blank"><i
+                    class='bx bxl-linkedin'></i></a>
             <a href="https://github.com/Ubaidullah28" class="href" target="_blank"><i class='bx bxl-github'></i></a>
         </div>
         <div class="home-content">
+            <h3>Hi, I'm</h3>
             <h1>
-                Hi, I'm M Ubaidullah Ishtiaque
+                 M Ubaidullah Ishtiaque
             </h1>
 
-            <h3>    
+            <h3>
                 Web Developer
-            </h3>   
+            </h3>
 
             <p>
                 Skilled in HTML, CSS, and frontend development with little bit experience in backend technologies,
-                 including the .NET Framework. Proficient in C++, C#, C, and Python, with hands-on knowledge of React for building
+                including the .NET Framework. Proficient in C++, C#, C, and Python, with hands-on knowledge of React for
+                building
                 dynamic user interfaces.
-            </p>   
-            <button> Hire Me!</button>
-            <button style="margin-left: 36.25%;">
+            </p>
+            <button class="hire"> Hire Me!</button>
+            <button class="cv" style="margin-left: 36.25%;">
                 <a href="Ubaidullah's Resume.pdf" download style="text-decoration: none; color: inherit;">My CV!</a>
             </button>
-            <button style="margin-left: 36.25%;">
-                <a href="urduArabicHome.html" download style="text-decoration: none; color: inherit;">In Urdu&Arabic!</a>
+            <button class="lang" style="margin-left: 36.25%;">
+                <a href="urduArabicHome.html" download style="text-decoration: none; color: inherit;">In
+                    Urdu&Arabic!</a>
             </button>
-        </button>
+            </button>
 
 
-           
 
-            
+
+
 
         </div>
 
-    <div class="dpimg">
-        
+        <div class="dpimg">
+
             <div class="dp">
                 <img src="dp.jpg" alt="">
             </div>
-        
-    </div>
+
+        </div>
 
     </section>
 
-       <!-- about section -->
+    <!-- about section -->
     <section class="about" id="about">
-        <h2>About Me</h2>
+        <!-- <h2>About Me</h2>
         <p> I am a passionate web developer and a bscs student in Information technology University(ITU) with a intermediate experience in frontend development, and a little bit in backend development. 
             My journey started with HTML, CSS, and JavaScript, and I have since expanded my skills to work with backend frameworks like 
             ASP.NET and languages such as Python, C++, and C#. I am constantly learning and evolving with the latest technologies to build 
-            efficient and modern web applications.</p>
+            efficient and modern web applications.</p> -->
     </section>
+
 
 
     <section class="education" id="education">
@@ -108,7 +117,7 @@
         </div>
 
     </section>
-    
+
 
 
     <section id="skills" class="skills">
@@ -127,7 +136,7 @@
         </div>
         <div class="skill-category">
             <h3>Libraries:</h3>
-            <p>Pandas, NumPy, Matplotlib, Tkinter, SFML</p> 
+            <p>Pandas, NumPy, Matplotlib, Tkinter, SFML</p>
         </div>
 
         <div class="button">
@@ -135,7 +144,7 @@
         </div>
 
     </section>
-    
+
 
     <section id="projects" class="projects">
         <h2>Projects</h2>
@@ -148,7 +157,7 @@
                 <li>MySQL database used for record storage, accessible by admins and teachers.</li>
             </ul>
         </div>
-    
+
         <div class="project">
             <h3>Paint Brush</h3>
             <p>Python, Tkinter | May 2023 – June 2023</p>
@@ -157,7 +166,7 @@
                 <li>Similar to Microsoft Paint but with custom features.</li>
             </ul>
         </div>
-    
+
         <div class="project">
             <h3>Search Engine</h3>
             <p>C++ | Dec 2023 – Jan 2024</p>
@@ -165,7 +174,7 @@
                 <li>Console-based search engine developed using C++ and Treaps data structure.</li>
             </ul>
         </div>
-    
+
         <div class="project">
             <h3>Text Editor</h3>
             <p>C++ | Sept 2023 – Nov 2023</p>
@@ -173,7 +182,7 @@
                 <li>Console-based text editor developed using linked lists in C++.</li>
             </ul>
         </div>
-    
+
         <div class="project">
             <h3>Excel</h3>
             <p>C++ | Aug 2023 – Sept 2023</p>
@@ -181,7 +190,7 @@
                 <li>Console-based Excel-like application developed in C++ using linked lists.</li>
             </ul>
         </div>
-    
+
         <div class="project">
             <h3>Temperature Converter</h3>
             <p>C#, ASP.NET | July 2023</p>
@@ -189,7 +198,7 @@
                 <li>Full-stack web-based temperature converter developed in C#, HTML, CSS with .NET framework.</li>
             </ul>
         </div>
-    
+
         <div class="project">
             <h3>Ludo</h3>
             <p>C++ | Apr 2023 – May 2023</p>
@@ -197,7 +206,7 @@
                 <li>Console-based Ludo game developed in C++ using OOP concepts.</li>
             </ul>
         </div>
-    
+
         <div class="project">
             <h3>Chess</h3>
             <p>C++ | Mar 2023 – Apr 2023</p>
@@ -205,7 +214,7 @@
                 <li>Console-based chess game developed in C++ using OOP concepts.</li>
             </ul>
         </div>
-    
+
         <div class="project">
             <h3>Calculator</h3>
             <p>C#, .NET | Feb 2023</p>
@@ -213,7 +222,7 @@
                 <li>Application-based calculator developed in C# and .NET.</li>
             </ul>
         </div>
-    
+
         <div class="project">
             <h3>Shogi</h3>
             <p>C++, .NET | Dec 2022 – Jan 2023</p>
@@ -221,64 +230,71 @@
                 <li>Console-based Shogi game developed in C++ with basic OOP concepts.</li>
             </ul>
         </div>
-    
+
         <div class="project">
             <h3>Gomoku</h3>
             <p>C++, Python | Nov 2022 – Dec 2022</p>
             <ul>
-                <li>Console-based Gomoku game developed in C++ and Python with human vs human and human vs AI versions.</li>
+                <li>Console-based Gomoku game developed in C++ and Python with human vs human and human vs AI versions.
+                </li>
             </ul>
 
-            <video width="400" controls autoplay muted loop style="margin-left: 25%; margin-top: 3%;">
+            <video class="vid" width="400" controls autoplay muted loop>
                 <source src="coding.mp4" type="video/mp4">
                 Your browser does not support the video tag.
-            </video>
+                    
+            </video>
 
-        </div>
+            <!-- </div> -->
     </section>
-    
-    
+
+
 
     <div class="fb-post-container">
         <h1 style="text-align: center; color: beige;">Social media Feeds</h1>
-        
+
         <!-- fb feeds -->
         <div id="fb-root"></div>
-        <script async="1" defer="1" crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v20.0" nonce="SC5McuU9"></script>
-        <div class="fb-post" data-href="https://www.facebook.com/story.php?story_fbid=381126611682143&id=100093544205050&mibextid=xfxF2i&rdid=BCEiHqTv9F82V2vG&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fp%2FRCb4QT3iddt4Duif%2F%3Fmibextid%3DxfxF2i" data-width="640">
-            <blockquote cite="https://graph.facebook.com/100093544205050/posts/381126611682143/" class="fb-xfbml-parse-ignore">
+        <script async="1" defer="1" crossorigin="anonymous"
+            src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v20.0" nonce="SC5McuU9"></script>
+        <div class="fb-post"
+            data-href="https://www.facebook.com/story.php?story_fbid=381126611682143&id=100093544205050&mibextid=xfxF2i&rdid=BCEiHqTv9F82V2vG&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fp%2FRCb4QT3iddt4Duif%2F%3Fmibextid%3DxfxF2i"
+            data-width="640">
+            <blockquote cite="https://graph.facebook.com/100093544205050/posts/381126611682143/"
+                class="fb-xfbml-parse-ignore">
                 <p>Roadmap for Backend web development Follow Coding Chess</p>
                 Posted by <a href="https://www.facebook.com/people/Coding-Chess/100093544205050/">Coding Chess</a> on 
-                <a href="https://graph.facebook.com/100093544205050/posts/381126611682143/">Wednesday, August 14, 2024</a>
+                <a href="https://graph.facebook.com/100093544205050/posts/381126611682143/">Wednesday, August 14,
+                    2024</a>
             </blockquote>
         </div>
-        
-      
-    
+
+
+
     </div>
-    
-    
+
+
 
     <section id="contact" class="contact">
         <h2>Contact Me</h2>
         <p>If you have any questions, feel free to reach out to me via email and whatsapp!</p>
-        
+
         <form class="contact-form" action="mailto:your-email@example.com" method="post" enctype="text/plain">
             <div class="form-group">
                 <label for="name">Your Name</label>
                 <input type="text" id="name" name="name" placeholder="Enter your name" required>
             </div>
-            
+
             <div class="form-group">
                 <label for="email">Your Email</label>
                 <input type="email" id="email" name="email" placeholder="Enter your email" required>
             </div>
-            
+
             <div class="form-group">
                 <label for="message">Your Message</label>
                 <textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
             </div>
-            
+
             <button type="submit" class="btn" style="color: black;">Send Message</button>
             <div class="social-links">
                 <a href="https://wa.me/923214426339" target="_blank">
@@ -288,7 +304,8 @@
             </div>
 
             <div class="gmail">
-                <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZdBRxPCHWmpwnVCZLMBVHDdNhHtQmXzdVmSLKFpkCnBFxNlWDtrJczKCSjwHjTbQHXWpL" target="_blank">
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZdBRxPCHWmpwnVCZLMBVHDdNhHtQmXzdVmSLKFpkCnBFxNlWDtrJczKCSjwHjTbQHXWpL"
+                    target="_blank">
                     <i class='bx bxl-gmail'></i>
                 </a>
 
@@ -298,25 +315,136 @@
     </section>
 
 
-   
 
 
-    <footer class="footer"></footer>
-        <p style="text-align: center;">&copy; 2024 M Ubaidullah Ishtiaque. All Rights Reserved.</p>
-        <p style="text-align: center;">Designed by M Ubaidullah Ishtiaque</p>
+
+    <footer class="footer" id="footer">
+        <!-- <p style="text-align: center;">&copy; 2024 M Ubaidullah Ishtiaque. All Rights Reserved.</p>
+        <p style="text-align: center;">Designed by M Ubaidullah Ishtiaque</p> -->
     </footer>
-    
+    <script>
 
+        footer = {
+            p: "2024 M Ubaidullah Ishtiaque. All Rights Reserved.",
+            p2: "Designed by M Ubaidullah Ishtiaque"
+        }
+        function printFooter(footerObj) {
+            const container = document.getElementById('footer');
+            const p1 = document.createElement('p');
+            p1.style = 'text-align: center';
+            p1.textContent = footerObj.p;
+            container.appendChild(p1);
+            const p2 = document.createElement('p');
+            p2.style = 'text-align: center';
+            p2.textContent = footerObj.p2;
+            container.appendChild(p2);
+        }
+        printFooter(footer);
+        about = {
+            h2: "About Me",
+            p: "I am a passionate web developer and a bscs student in Information technology University(ITU) with a intermediate experience in frontend development, and a little bit in backend development. My journey started with HTML, CSS, and JavaScript, and I have since expanded my skills to work with backend frameworks like ASP.NET and languages such as Python, C++, and C#. I am constantly learning and evolving with the latest technologies to build efficient and modern web applications."
+        }
+        function printAbout(aboutObj) {
+            const container = document.getElementById('about');
+            const h2 = document.createElement('h2');
+            h2.textContent = aboutObj.h2;
+            container.appendChild(h2);
+            const p = document.createElement('p');
+            p.textContent = aboutObj.p;
+            container.appendChild(p);
+        }
+        printAbout(about);
+    </script>
+    <!-- <script>
+        const menuIcon = document.getElementById('menu-icon');
+        const header = document.querySelector('.custom-header');
+        const navbarLinks = document.querySelectorAll('.navbar a'); // Get all navbar links
+    
+        // Function to toggle the navbar open and close
+        function toggleNavbar() {
+            header.classList.toggle('nav-open');
+            
+            // Change icon between hamburger and cross
+            if (header.classList.contains('nav-open')) {
+                menuIcon.innerHTML = '<i class="bx bx-x"></i>'; // Cross icon
+            } else {
+                menuIcon.innerHTML = '<i class="bx bx-menu"></i>'; // Hamburger icon
+            }
+        }
+    
+        // Event listener for menu icon click
+        menuIcon.addEventListener('click', toggleNavbar);
+    
+        // Close the navbar when a link is clicked
+        navbarLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                if (header.classList.contains('nav-open')) {
+                    toggleNavbar(); // Close the navbar
+                }
+            });
+        });
+    </script> -->
+
+
+
+<script>
+    const menuIcon = document.getElementById('menu-icon');
+const header = document.querySelector('.custom-header');
+const navbarLinks = document.querySelectorAll('.navbar a'); // Get all navbar links
+const sections = document.querySelectorAll('section'); // Select all sections
+
+// Function to toggle the navbar open and close
+function toggleNavbar() {
+    header.classList.toggle('nav-open');
+    
+    // Change icon between hamburger and cross
+    if (header.classList.contains('nav-open')) {
+        menuIcon.innerHTML = '<i class="bx bx-x"></i>'; // Cross icon
+    } else {
+        menuIcon.innerHTML = '<i class="bx bx-menu"></i>'; // Hamburger icon
+    }
+}
+
+// Event listener for menu icon click
+menuIcon.addEventListener('click', toggleNavbar);
+
+// Close the navbar when a link is clicked
+navbarLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        if (header.classList.contains('nav-open')) {
+            toggleNavbar(); // Close the navbar
+        }
+    });
+});
+
+// Function to handle scroll and update active link
+function updateActiveLink() {
+    let currentSection = '';
+
+    // Loop through each section to determine which one is currently in view
+    sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+
+        if (window.scrollY >= sectionTop - sectionHeight / 3) {
+            currentSection = section.getAttribute('id'); // Get the id of the section in view
+        }
+    });
+
+    // Remove 'active' class from all links, and add it to the link of the visible section
+    navbarLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href').substring(1) === currentSection) {
+            link.classList.add('active'); // Add 'active' to the link corresponding to the section in view
+        }
+    });
+}
+
+// Listen to scroll events
+window.addEventListener('scroll', updateActiveLink);
+</script>
+    
 </body>
 
 </html>
-
-<script>
-    const navbarLinks = document.querySelectorAll('.navbar a');
-    navbarLinks.forEach(link => {
-      link.addEventListener('click', function() {
-        navbarLinks.forEach(nav => nav.classList.remove('active'));
-        this.classList.add('active');
-      });
-    });
-  </script>
+ 
