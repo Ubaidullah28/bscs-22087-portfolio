@@ -93,7 +93,7 @@ body{
       align-items: center;
       width: 100%;
       transition: right 0.3s ease-in-out;
-      z-index: 999;
+      z-index: 90;
   }
 
   .custom-header .navbar a {
@@ -103,6 +103,7 @@ body{
 
   .menu-icon {
       display: block;
+      z-index: 100;
   }
 
   .custom-header.nav-open .navbar {
@@ -213,6 +214,7 @@ video {
 {
 min-width: 140%;
 border-radius: 5%;
+display: none;
 }
 
 
